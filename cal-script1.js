@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset='utf-8' />
-<title>Pia Calendar</title>
-<link rel='stylesheet' href='./Styles/bootstrap.min.css'/>
-<link href='./Styles/fullcalendar.min.css' rel='stylesheet' />
-    
-<script src='./Scripts/moment.min.js'></script>
-<script src='./Scripts/jquery-3.3.1.min.js'></script>
-<script src='./Scripts/fullcalendar.min.js'></script>
-<script src="cal-script1.js"></script>
-<script>
-/*  $(document).ready(function() {
+
+  $(document).ready(function() {
 
     $('#calendar').fullCalendar({
       header: {
@@ -92,41 +80,4 @@
       ]
     });
 
-  });*/
-</script>
-<style>
-
-  body {
-    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
-    font-size: 14px;
-  }
-
-  #calendar {
-    max-width: 900px;
-    margin: 0;
-  }
-
-    .content {
-        padding-top: 2%;
-    }
-</style>
-</head>
-<body>
- <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-    <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-      Pia
-  </a>
-<a href="index.html" class="navbar-brand pull-right"><small>Log out</small></a>
-</nav>
-<div class="content container-fluid">
-<div class= row>
-  <div id='calendar' class="col-md-8"></div>
-<div class="col-md-4">Lipsum</div>
-</div>
-</div>
-<!--    <script src='./Scripts/jquery-3.3.1.min.js'></script>-->
-    <script src='./Scripts/bootstrap.min.js'></script>
-</body>
-
-</html>
+  });
