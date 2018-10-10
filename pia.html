@@ -109,20 +109,68 @@
     .content {
         padding-top: 2%;
     }
+    .equal-length {
+        height: 100;
+        width: 90;
+        text-align: center;
+        background-color: cornflowerblue
+    }
+    .smaller {
+        font-size: 15px;
+    }
+    li{
+        padding-left: 5px;
+    }
 </style>
 </head>
 <body>
- <nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #042d70;">
+  <a class="navbar-brand" href="index.html">
+    <img src="Pia.JPG" height="45" class="d-inline-block align-top" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <button type="button" class="equal-length btn btn-primary btn-lg" style="height: 100;
+        width: 90;
+        text-align: center;
+        background-color: cornflowerblue">Add course</button>
+      </li>
+    <li class="nav-item">  
+        <button type="button" class="equal-length btn btn-primary btn-lg">Add event</button>
+      </li>
+    </ul>
+      <a href="index.html" class=" navbar-brand pull-right"><small>Log out</small></a>
+    </div>
+</nav>
+<!-- <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand" href="#">
-    <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-      Pia
+    <img src="Pia.JPG" height="45" class="d-inline-block align-top" alt="">
   </a>
 <a href="index.html" class="navbar-brand pull-right"><small>Log out</small></a>
-</nav>
+</nav>-->
 <div class="content container-fluid">
 <div class= row>
-  <div id='calendar' class="col-md-8"></div>
-<div class="col-md-4">Lipsum</div>
+  <div id='calendar' class="col-md-8" style="padding-bottom: 10px"></div>
+<div class="col-md-4" >
+    <div class="card">
+  <h5 class="card-header">
+    Notifications
+  </h5>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Remember! Deadline tomorrow - Digital service design Project 
+</li>
+    <li class="list-group-item">Approaching Deadline 26.10.2018 - Individual Study Plan
+</li>
+    <li class="list-group-item">Course XX - Change in class room, new room: K1234</li>
+  </ul>
+    
+</div>
+    </div>
 </div>
 </div>
 <!--    <script src='./Scripts/jquery-3.3.1.min.js'></script>-->

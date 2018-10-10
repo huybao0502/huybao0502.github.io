@@ -23,59 +23,99 @@
       eventLimit: true, // allow "more" link when too many events
       events: [
         {
-          title: 'All Day Event',
-          start: '2018-03-01'
+          title: 'Business Operations PS/3012',
+          start: '2018-10-12T08:00:00',
+          end: '2018-10-12T11:45:00'
         },
         {
-          title: 'Long Event',
-          start: '2018-03-07',
-          end: '2018-03-10'
-        },
-        {
-          id: 999,
-          title: 'Repeating Event',
-          start: '2018-03-09T16:00:00'
+          title: 'BUS1TF011-3001 Business Operations 3001',
+          start: '2018-10-09T08:00:00',
+          end: '2018-10-09T11:45:00'
         },
         {
           id: 999,
-          title: 'Repeating Event',
-          start: '2018-03-16T16:00:00'
+          title: ' 	BIG4TF003-3002 Business Process Management',
+          start: '2018-10-09T12:00:00',
+          end: '2018-10-09T15:45:00'
         },
         {
-          title: 'Conference',
-          start: '2018-03-11',
-          end: '2018-03-13'
+          id: 999,
+          title: 'Business Planning',
+          start: '2018-10-16T12:00:00',
+          end: '2018-10-16T16:00:00'
         },
         {
-          title: 'Meeting',
-          start: '2018-10-11T10:30:00',
-          end: '2018-10-11T12:30:00',
+          title: 'Innovation and project work 3002',
+          start: '2018-10-11T08:00:00',
+          end: '2018-10-11T10:00:00'
+        },
+        {
+          title:  'Innovation and project C work 3002',
+          start: '2018-10-11T10:00:00',
+          end: '2018-10-11T11:45:00',
         backgroundColor:'green'
         },
         {
-          title: 'Lunch',
-          start: '2018-03-12T12:00:00'
+          title: 'CloudServer Technologies 5003',
+          start: '2018-10-11T12:00:00',
+          end: '2018-10-11T16:00:00'
         },
         {
-          title: 'Meeting',
-          start: '2018-03-12T08:30:00'
+          title: 'Beginners Finnish 2 3002',
+          start: '2018-10-10T10:00:00',
+          end: '2018-10-10T11:45:00'
         },
         {
-          title: 'Happy Hour',
-          start: '2018-03-12T17:30:00'
+          title: 'Innovation and project work B',
+          start: '2018-10-10T12:00:00',
+          end: '2018-10-10T13:45:00'
         },
         {
-          title: 'Dinner',
-          start: '2018-03-12T20:00:00'
+          title: 'ICT and buisness English',
+          start: '2018-10-10T14:00:00',
+          end: '2018-10-10T16:45:00'
         },
         {
-          title: 'Birthday Party',
-          start: '2018-03-13T07:00:00'
+          title: 'User Experience',
+          start: '2018-10-09T08:00:00',
+          end: '2018-10-09T11:45:00',
+          backgroundColor:'yellow'
+
         },
         {
-          title: 'Click for Google',
+          title: 'Programming A 3002',
+          url: 'http://www.haaga-helia.fi/en/opinto-opas/opintojaksokuvaukset/ITP1TF111',
+          start: '2018-10-08T08:00:00',
+          end: '2018-10-08T09:00:00'
+
+        },
+        {
+          title: 'Programming B 3001',
+          start: '2018-10-08T09:00:00',
+          end: '2018-10-08T10:45:00',
+          backgroundColor:'green'
+
+        },
+        {
+          title: 'Programming C3002',
           url: 'http://google.com/',
-          start: '2018-03-28'
+          start: '2018-10-08T10:00:00',
+          end: '2018-10-08T11:45:00'
+
+        },
+        
+        {
+          title: 'User Experience 3002',
+          start: '2018-10-08T12:00:00',
+          end: '2018-10-08T14:45:00'
+
+        },
+        {
+          title: 'Beginners Finnish ',
+          start: '2018-10-08T16:00:00',
+          end: '2018-10-08T17:45:00',
+          url: 'http://google.com/',
+          
         }
       ]
     });
