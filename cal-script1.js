@@ -23,26 +23,20 @@
       eventLimit: true, // allow "more" link when too many events
       events: [
         {
-          title: 'Business Operations PS/3012',
+          title: 'Business Operations - 3012',
           start: '2018-10-12T08:00:00',
-          end: '2018-10-12T11:45:00'
+          end: '2018-10-12T11:45:00',
+    
         },
         {
-          title: 'BUS1TF011-3001 Business Operations 3001',
+          title: 'Business Operations - 3001',
           start: '2018-10-09T08:00:00',
           end: '2018-10-09T11:45:00'
         },
         {
-          id: 999,
-          title: ' 	BIG4TF003-3002 Business Process Management',
+          title: 'Business Process Management',
           start: '2018-10-09T12:00:00',
           end: '2018-10-09T15:45:00'
-        },
-        {
-          id: 999,
-          title: 'Business Planning',
-          start: '2018-10-16T12:00:00',
-          end: '2018-10-16T16:00:00'
         },
         {
           title: 'Innovation and project work 3002',
@@ -53,12 +47,14 @@
           title:  'Innovation and project C work 3002',
           start: '2018-10-11T10:00:00',
           end: '2018-10-11T11:45:00',
-        backgroundColor:'green'
+  
         },
         {
           title: 'CloudServer Technologies 5003',
           start: '2018-10-11T12:00:00',
-          end: '2018-10-11T16:00:00'
+          end: '2018-10-11T16:00:00',
+            backgroundColor: 'navy',
+            textColor:'white'  
         },
         {
           title: 'Beginners Finnish 2 3002',
@@ -84,37 +80,42 @@
         },
         {
           title: 'Programming A 3002',
-          url: 'http://www.haaga-helia.fi/en/opinto-opas/opintojaksokuvaukset/ITP1TF111',
           start: '2018-10-08T08:00:00',
-          end: '2018-10-08T09:00:00'
+          end: '2018-10-08T09:00:00',
+        backgroundColor:'green',
+            textColor:'white'
 
         },
         {
           title: 'Programming B 3001',
           start: '2018-10-08T09:00:00',
           end: '2018-10-08T10:45:00',
-          backgroundColor:'green'
+          backgroundColor:'green',
+            textColor:'white'     
+        
 
         },
         {
-          title: 'Programming C3002',
-          url: 'http://google.com/',
+          title: 'Programming C 3002',
           start: '2018-10-08T10:00:00',
-          end: '2018-10-08T11:45:00'
+          end: '2018-10-08T11:45:00',
+        backgroundColor:'green',
+        textColor:'white'     
 
         },
         
         {
-          title: 'User Experience 3002',
+          title: 'User Experience',
           start: '2018-10-08T12:00:00',
-          end: '2018-10-08T14:45:00'
+          end: '2018-10-08T14:45:00',
+        backgroundColor:'yellow'
 
         },
         {
           title: 'Beginners Finnish ',
           start: '2018-10-08T16:00:00',
           end: '2018-10-08T17:45:00',
-          url: 'http://google.com/',
+    
           
         }
       ]
