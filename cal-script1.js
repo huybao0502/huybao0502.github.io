@@ -24,8 +24,9 @@
       events: [
         {
           title: 'Business Operations - 3012',
-          start: '2018-10-12T08:00:00',
-          end: '2018-10-12T11:45:00',
+          start: '08:00:00',
+          end: '11:45:00',
+        dow: [5]
     
         },
         {
@@ -39,9 +40,10 @@
           end: '2018-10-09T15:45:00'
         },
         {
-          title: 'Innovation and project work 3002',
-          start: '2018-10-11T08:00:00',
-          end: '2018-10-11T10:00:00'
+          title: 'Innovation and project work - 3002',
+          start: '08:00:00',
+          end: '10:00:00', 
+            dow: [1]
         },
         {
           title:  'Innovation and project C work 3002',
@@ -50,16 +52,18 @@
   
         },
         {
-          title: 'CloudServer Technologies 5003',
-          start: '2018-10-11T12:00:00',
-          end: '2018-10-11T16:00:00',
+          title: 'CloudServer Technologies - 5003',
+          start: '12:00:00',
+          end: '16:00:00',
+            dow: [2],
             backgroundColor: 'navy',
             textColor:'white'  
         },
         {
           title: 'Beginners Finnish 2 3002',
-          start: '2018-10-10T10:00:00',
-          end: '2018-10-10T11:45:00'
+          start: '10:00:00',
+          end: '11:45:00',
+            dow: [2]
         },
         {
           title: 'Innovation and project work B',
@@ -73,8 +77,9 @@
         },
         {
           title: 'User Experience',
-          start: '2018-10-09T08:00:00',
-          end: '2018-10-09T11:45:00',
+          start: '08:00:00',
+          end: '11:45:00',
+            dow: [3],
           backgroundColor:'yellow'
 
         },
@@ -96,10 +101,11 @@
 
         },
         {
-          title: 'Programming C 3002',
-          start: '2018-10-08T10:00:00',
-          end: '2018-10-08T11:45:00',
+          title: 'Programming - 5002',
+          start: '10:00:00',
+          end: '11:45:00',
         backgroundColor:'green',
+            dow: [4],
         textColor:'white'     
 
         },
